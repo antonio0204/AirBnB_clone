@@ -2,7 +2,7 @@
 """
 Define  BaseModel class
 """
-import datetime
+from datetime import datetime
 import uuid
 import json
 
@@ -15,13 +15,15 @@ class BaseModel:
         """
         if not kwargs:
             self.id = str(uuid.uuid4())
-            self.created_at = datetime.datetime.now()
+            self.created_at = datetime.now()
+            self.updated_at = datetime.now()
         else:
             for key in kwargs:
                 if key != '__class__':
                     if key in ('created_at', 'updated_at'):
-                        self.__dict__[key] = datetime.datetime.strptime(kwargs[key],
-                                                                        '%Y-%m-%dT%H:%M:%S.%f')
+                        date_obj = datetime.strptime(kwargs[key],
+                                                     '%Y-%m-%dT%H:%M:%S.%f')
+                        self.__dict__[key] = date_obj
                     else:
                         self.__dict__[key] = kwargs[key]
 
@@ -29,7 +31,7 @@ class BaseModel:
         """Update the public instance attribute 'update_at' with the current
         datetime.
         """
-        self.updated_at = datetime.datetime.now()
+        self.updated_at = datetime.now()
 
     def to_dict(self):
         """Return a dictionary containing all keys/value of __dict__ of the
