@@ -4,16 +4,26 @@ Entry point class
 """
 import cmd
 
+from models.base_model import BaseModel
+from models.user import User
+from models.amenity import Amenity
+from models.city import City
+from models.place import Place
+from models.review import Review
+from models.state import State
+import models
+
 
 class HBNBCommand(cmd.Cmd):
-    """Entry point of the command interpreter
+    """Entry point of the command interpreter.
 
     Args:
     cmd (Cmd): class cmd.
 
     Returns:
-    nothing.
+        nothing.
     """
+    use_rawinput = False
     prompt = '(hbnb) '
 
     def do_create(self, cls_name):
