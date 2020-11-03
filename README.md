@@ -68,7 +68,7 @@ $
 
 ## Authors
 ---
- **GitHub:** [Andres-Ariza](https://github.com/aarizat)
- **Twitter:** [@aarizatr](https://twitter.com/aarizatr)
- **GitHub**[@ronald0204](https://github.com/ronald0204)
- **Twiitter:** [@ronald45251997](https://twitter.com/ronald45251997)
+- **GitHub:** [Andres-Ariza](https://github.com/aarizat)
+- **Twitter:** [@aarizatr](https://twitter.com/aarizatr)
+- **GitHub**[@ronald0204](https://github.com/ronald0204)
+- **Twiitter:** [@ronald45251997](https://twitter.com/ronald45251997)
