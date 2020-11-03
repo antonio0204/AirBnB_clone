@@ -1,5 +1,6 @@
 # **Holberton** AirBnB clone - Console
-![Lines text](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20201103%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201103T161508Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=4337ac2103bc0fefcad123328672a225ae873c2eb0cbf3a050dd810722a4ee45)
+![Lines text](https://pbs.twimg.com/media/El6vk5xW0AUJNY4?format=png&name=4096x4096)
+
 ## The following was implemented in the project:
 
 ---
@@ -12,7 +13,7 @@
 | 5 | A console/command interpreter where we can instantiate, store, destroy, and update attributes of objects, as well as print out the string representation of those objects |
 
 # The Console
-![Lines text](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/6/815046647d23428a14ca.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20201103%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201103T161508Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=08a453af166b1490b025791e63ea6697b732375c047ca7487f2ba68b0725f405)
+![Lines text](https://pbs.twimg.com/media/El6v2qRXgAEykYU?format=jpg&name=large)
 ---
 ## Environment
 ### - Ubuntu 14.04 LTS via Vagrant in VirtualBox and Interpret Python3
