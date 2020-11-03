@@ -58,7 +58,7 @@ $
 
 ## Available commands:
 ---
-| command | Explanation |
+| command. | Explanation. |
 | ------ | ------ |
 | all | Prints all string representation of all instances based or not on the class name. Ex: $ all BaseModel |
 | create |Creates a new instance of CLASS_NAME, saves it (to the JSON file) and print the id |
