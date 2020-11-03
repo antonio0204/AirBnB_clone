@@ -48,6 +48,6 @@ class FileStorage:
         if os.path.isfile(type(self).__file_path):
             with open(type(self).__file_path, mode='r') as fp:
                 dict_of_dicts = json.load(fp)
-                for dict in dict_of_dicts.values():
-                    cls_name = dict['__class__']
-                    self.new(eval(cls_name)(**dict))
+                for _dict in dict_of_dicts.values():
+                    cls_name = _dict['__class__']
+                    self.new(eval(cls_name)(**_dict))
