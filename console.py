@@ -128,7 +128,7 @@ class HBNBCommand(cmd.Cmd):
                 value = float(value)
             _dict = models.storage.all()[obj_id].__dict__
             _dict[attr] = value
-            models.storage.save()
+            models.storage.all()[obj_id].save()
 
     def do_count(self, cls_name):
         """retrieve the number of instances of a class.
