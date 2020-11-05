@@ -51,7 +51,7 @@ class HBNBCommand(cmd.Cmd):
         line = cls_name_id.split()
         key = ".".join(line).strip()
         if not line:
-            print("** class name missing ** ")
+            print("** class name missing **")
         elif line[0].strip() not in globals():
             print("** class doesn't exist **")
         elif len(line) == 1:
@@ -71,7 +71,7 @@ class HBNBCommand(cmd.Cmd):
         line = cls_name_id.split()
         key = ".".join(line).strip()
         if not line:
-            print("** class name missing ** ")
+            print("** class name missing **")
         elif line[0].strip() not in globals():
             print("** class doesn't exist **")
         elif len(line) == 1:
