@@ -1,0 +1,87 @@
+.container .places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .places h1 {
+    z-index: -1;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    flex: 0 1 100%;
+}
+
+.container .places article {
+    z-index: -1;
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: #FF5A5F 1px solid;
+    border-radius: 4px;
+    position: relative;
+}
+
+.container .places h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.places .price_by_night {
+    border: #FF5A5F 4px solid;
+    width: 60px;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    color: #FF5A5F;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.places .price_by_night h2 {
+    margin-top: 13px;
+}
+
+.places .information {
+    display: flex;
+    border: #DDDDDD 1px solid;
+    justify-content: center;
+    position: relative;
+    border-left: none;
+    border-right: none;
+}
+
+.places .information div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 75px;
+    width: 35%;
+}
+
+.places .information .max_guest {
+    background-image: url(../images/icon_group.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.places .information .number_rooms {
+    background-image: url(../images/icon_bed.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.places .information .number_bathrooms {
+    background-image: url(../images/icon_bath.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.places .description p,
+.places .user p {
+    text-align: left;
+}
